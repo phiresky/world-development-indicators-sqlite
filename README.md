@@ -1,4 +1,4 @@
-Small script to import the CSV files from https://datacatalog.worldbank.org/dataset/world-development-indicators into a SQLite database.
+Small script to import the CSV files from https://datacatalog.worldbank.org/dataset/world-development-indicators into an SQLite database.
 
 
 The dataset is licensed under CC-BY 4.0.
@@ -85,8 +85,6 @@ where wdi_data.indicator_code = newest_data.indicator_code and wdi_data.country_
 order by value asc limit 20
 ```
 
-# Table Definitions
-
 |    | country                                 | Youth Literacy Rate   |
 |---:|:----------------------------------------|:----------------------|
 |  0 | Republic of Chad                        | 30.8 %                |
@@ -109,6 +107,10 @@ order by value asc limit 20
 | 17 | Federal Democratic Republic of Ethiopia | 72.8 %                |
 | 18 | Republic of Malawi                      | 72.9 %                |
 | 19 | Republic of the Sudan                   | 73.0 %                |
+
+
+
+# Table Definitions
 
 **`select * from sqlite_master`**
 
