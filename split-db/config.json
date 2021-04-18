@@ -1,0 +1,10 @@
+
+{
+    "serverMode": "chunked",
+    "requestChunkSize": 1024,
+    "databaseLengthBytes": 668751872,
+    "serverChunkSize": 10485760,
+    "urlPrefix": "db.sqlite3.",
+    "suffixLength": 3
+}
+
