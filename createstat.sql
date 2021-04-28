@@ -1,3 +1,4 @@
+-- creates a separate stats database based on the data in the dbstats virtual table (used to get the page read log in the blog post)
 attach 'wdi.sqlite3' as wdi;
 
 create table names (id integer primary key, name text not null);
